@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    min-width: 100%;
+}
+
+.conteiner {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_img {
+    height: 100px;
+    justify-content: flex-start;
+}
+
+.nav__list {
+
+    column-gap: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+
+    font-family: 'futura New';
+    /*Щрифт*/
+    font-weight: 700;
+    /*Насыщенность щрифта*/
+    font-size: 20px;
+    /*Размер текста*/
+    color: #FFC59F;
+    /*Цвет текста*/
+    text-transform: uppercase;
+    /*Верхний регистр*/
+    text-decoration: none;
+}
+
+.title-block {
+    padding-top: 80px;
+    height: 49%;
+    font-family: 'SchoolBooK';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 138%;
+    color: #080606;
+}
+
+.btn {
+    color: white;
+    box-shadow: 0px 4px 20px #FFC59F;
+    border-radius: 33.5px;
+    background-color: #FFC59F;
+    border: none;
+    border-radius: 33.5px;
+    font-size: 20px;
+
+    text-transform: uppercase;
+    padding: 24px 77px;
+    font-family: 'futura New';
+    font-style: normal;
+
+}
+
+.content-images {
+    width: 50%;
+    height: 768px;
+}
+
+.content {
+    display: flex;
+}
+
+.title {
+    font-size: 80px;
+    padding-top: 152px;
+    align-content: space-around;
+}
