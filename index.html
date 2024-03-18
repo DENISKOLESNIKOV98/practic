@@ -1,52 +1,82 @@
 <!DOCTYPE html>
 <html lang="ru">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="hero">
-        <div class="wrapper">
-            <div class="conteiner">
+    <div class="wrapper">
+        <section class="hero">
+            <div class="container">
                 <header class="header">
                     <a href="#" class="logo">
-                        <img src="img/logo.png" alt="Логотип" class="logo__img">
+                        <img src="img/WD.png" alt="Логотип WD" class="logo__img">
                     </a>
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Личный кабинет</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">О НАС</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">НОВОСТИ И АКЦИИ</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">КОНТАКТЫ</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">БЛОГ</a>
-                        </li>
-                    </ul>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">ГЛАВНАЯ</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">ОБ АВТОРЕ</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">РАБОТЫ</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">ПРОЦЕСС</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </header>
-                <div class="content">
-                    <div class="title__block">
-                        <h1 class="title">Айболит кругосуточная ветклиника</h1>
-                        <button class="btn">Записаться</button>
+                <div class="hero__content">
+                    <div class="hero__img-wrap">
+                        <img src="img/PC.png" alt="PC" class="hero__img">
                     </div>
-                    <div class="content-images">
-                        <img src="img/image.png" alt="">
+                    <div class="hero__desc">
+                        <h1 class="title">Дизайн и верстка</h1>
+                        <p class="paragraph">
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                            является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        </p>
+                        <button class="btn hero__btn">НАПИСАТЬ МНЕ</button>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="about">
+            <div class="conteiner about_conteiner">обо мне</div>
+            <h2 class="section-title">
+                <p class="paragraph">
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                    является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </p>
 
-        </div>
+            </h2>
+        </section>
+        <section class="achievements">
+            <div class="conteiner">
+                <ul class="achievements__list">
+                    <li class="achievements__itim achievements">
+                        <img src="img/project.svg" alt="" class="achievements__icon">
+                        <div class="achievements__desk"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
 </body>
 
